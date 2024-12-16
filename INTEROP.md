@@ -86,7 +86,7 @@ This will start the system with 256 validators. The flags used can be explained 
 As soon as the beacon node has started, start the validator in the other terminal window. 
 
 ```
-bazel run //cmd/validator --config=minimal -- --datadir=/tmp/validator --interopt-num-validators=256 --minimal-config --suggested-fee-recipient=0x8A04d14125D0FDCDc742F4A05C051De07232EDa4
+bazel run //cmd/validator --config=minimal -- --datadir=/tmp/validator --interop-num-validators=256 --minimal-config --suggested-fee-recipient=0x8A04d14125D0FDCDc742F4A05C051De07232EDa4
 ```
 
 This will launch and kickstart the system with your 256 validators performing their duties accordingly.
